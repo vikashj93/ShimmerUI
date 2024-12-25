@@ -1,7 +1,7 @@
 import React from 'react'
 
 const MemeCard = ({data}) => {
-    const{author, url,title} = data;
+    const{author, url} = data;
     
   return (
     <div className='p-5 m-5 border border-black'>
